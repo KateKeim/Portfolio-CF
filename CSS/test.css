@@ -61,7 +61,7 @@ section .set div:nth-child(1){
 	        animation: animate 15s linear infinite;
 	-webkit-animation-delay: -7s;
 	        animation-delay: -7s;
-	        opacity: 0.3;
+	        opacity: 0.2;
 }
 
 section .set div:nth-child(2){
@@ -70,7 +70,7 @@ section .set div:nth-child(2){
 	        animation: animate 20s linear infinite;
 	-webkit-animation-delay: -5s;
 	        animation-delay: -5s;
-	        opacity: 0.3;
+	        opacity: 0.2;
 }
 section .set div:nth-child(3){
 	left: 70%;
@@ -78,7 +78,7 @@ section .set div:nth-child(3){
 	        animation: animate 20s linear infinite;
 	-webkit-animation-delay: 0s;
 	        animation-delay: 0s;
-	        opacity: 0.3;
+	        opacity: 0.2;
 }
 section .set div:nth-child(4){
 	left: 0%;
@@ -86,7 +86,7 @@ section .set div:nth-child(4){
 	        animation: animate 15s linear infinite;
 	-webkit-animation-delay: -5s;
 	        animation-delay: -5s;
-	        opacity: 0.3;
+	        opacity: 0.2;
 }
 section .set div:nth-child(5){
 	left: 85%;
@@ -94,25 +94,25 @@ section .set div:nth-child(5){
 	        animation: animate 18s linear infinite;
 	-webkit-animation-delay: -10s;
 	        animation-delay: -10s;
-	        opacity: 0.3;
+	        opacity: 0.2;
 }
 section .set div:nth-child(6){
 	left: 0%;
 	-webkit-animation: animate 12s linear infinite;
 	        animation: animate 12s linear infinite;
-	        opacity: 0.3;
+	        opacity: 0.2;
 }
 section .set div:nth-child(7){
 	left: 15%;
 	-webkit-animation: animate 14s linear infinite;
 	        animation: animate 14s linear infinite;
-	        opacity: 0.3;
+	        opacity: 0.2;
 }
 section .set div:nth-child(8){
 	left: 60%;
 	-webkit-animation: animate 15s linear infinite;
 	        animation: animate 15s linear infinite;
-	        opacity: 0.3;
+	        opacity: 0.2;
 }
 
 @keyframes animate{
@@ -297,6 +297,7 @@ main{
 	padding: 40px;
 	margin-bottom: 30px;
 	background-color: var(--secondary-color);
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .part4 div{
@@ -337,8 +338,8 @@ main{
 .grid {
 	display: grid;
 	justify-content: center;
-	grid-template-columns: repeat(3, 300px);
-	grid-template-rows: repeat(2, 300px);
+	grid-template-columns: repeat(3, 350px);
+	grid-template-rows: repeat(2,350px);
 	grid-gap: 20px;
 }
 
@@ -349,8 +350,10 @@ main{
 	background-repeat: no-repeat;
 	background-size: cover;
 	align-self: stretch;
-	padding: 10px;
+	padding: 20px;
+	border-radius: 15px;
 }
+
 
 /*_____________________________CONTACT IS HERE______________________________*/
 
@@ -425,16 +428,6 @@ footer{
 	"main main main" 
 	"footer footer footer";
 }
-
-/*.container>*{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 1fr);
-	/*background-color: aqua;*/
-	/*margin-bottom: 40px;
-	width: 100%;
-	left: 0;
-	right: 0;
-}*/
 
 @media all and (max-width: 500px) {
   .grid {
